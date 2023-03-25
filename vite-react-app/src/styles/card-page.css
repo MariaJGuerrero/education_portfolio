@@ -1,0 +1,24 @@
+.cardsPage-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEF1FF;
+    min-height: 100vh;
+}
+
+.contact{
+    background-color: #D2DAFF;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.about{
+    background-color: #AAC4FF;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.proyects{
+    background-color: #B1B2FF;
+    margin: 30px;
+    border-radius: 10px;
+}
