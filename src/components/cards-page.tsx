@@ -6,7 +6,7 @@ const CardsPage = () => {
         <div className="cardsPage-container">
             <div className="left">
                 <div className="contact">
-                    <div className="card mb-3" style= {{listStyle: 'none'}}>
+                    <div className="card border-light bg-transparent mb-3" style= {{listStyle: 'none'}}>
                         <div className="card-body">
                             <h5 className="card-title">Contact</h5>
                             <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
@@ -17,7 +17,7 @@ const CardsPage = () => {
                     </div>
                 </div>
                 <div className="about">
-                    <div className="card mb-3" style= {{listStyle: 'none'}}>
+                    <div className="card border-light bg-transparent mb-3" style= {{listStyle: 'none'}}>
                         <div className="card-body">
                             <h5 className="card-title">About</h5>
                             <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
@@ -30,7 +30,7 @@ const CardsPage = () => {
             </div>
             <div className="right">
                 <div className="proyects">
-                    <div className="card">
+                    <div className="card  border-light bg-transparent">
                         <div className="card-body">
                             <h5 className="card-title">Proyects</h5>
                             <ul className="card-text">With supporting text below as a natural lead-in to additional content.
