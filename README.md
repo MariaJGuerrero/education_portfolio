@@ -2,6 +2,6 @@
 Personal portfolio
 
 ### Create with
-- React
+- Vite+React
 - Typescript
 - Bootstrap
