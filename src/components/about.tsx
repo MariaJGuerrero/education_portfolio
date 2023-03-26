@@ -1,9 +1,13 @@
+import Nav from '../components-pure/nav';
 import '../styles/about.css'
 
 const About = () => {
 
     return(
         <div className="about-container">
+             <header className='contact-header'>
+                <Nav />
+            </header>
             <section>
                 <h2 className='title'>About me</h2>
                 <div className="imgAndText-container1">

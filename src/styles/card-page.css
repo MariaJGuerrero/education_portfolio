@@ -3,6 +3,7 @@
     flex-direction: row;
     background-color: #EEF1FF;
     min-height: 100vh;
+    align-items: center;
 }
 
 .contact{

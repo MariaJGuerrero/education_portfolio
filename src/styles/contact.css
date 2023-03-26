@@ -1,0 +1,25 @@
+.contact-container{
+    background-color: #AAC4FF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100%;
+    align-items: center;
+}
+
+.contact-header{
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+    width: 100%;
+}
+
+.title{
+    margin: 40px;
+    font-size: 3em;
+}
+
+.message{
+    margin: 30px;
+    font-size: 1.2em;
+}
