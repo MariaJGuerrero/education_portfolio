@@ -2,14 +2,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #D2DAFF;
     height: 100vh;
     min-width: 100%;
 }
 
-.title{
-    font-size: 2rem;
-}
 
 .imgAndText-container1{
     display: flex;
@@ -21,7 +17,7 @@
 .text1{
     min-width: 200px;
     margin: 30px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .cv-photo{
@@ -40,5 +36,5 @@
 
 .text2{
     margin: 30px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }

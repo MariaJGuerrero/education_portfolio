@@ -9,12 +9,10 @@ function App() {
 
   return (
     <div className="App">
-      <CardsPage />
-      {/*
       <Introduction />
-      /<About />
+      <CardsPage />
+      <About />
       <Contact />
-      */}
       <Proyects />
 
     </div>
