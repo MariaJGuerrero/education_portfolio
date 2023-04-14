@@ -4,7 +4,7 @@ import '../styles/proyects.css'
 const Proyects = () => {
 
     return(
-        <div className="proyectsPage-container">
+        <div id="proyects" className="proyectsPage-container">
              <header className='contact-header'>
                 <Nav />
             </header>

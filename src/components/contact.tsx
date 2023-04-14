@@ -4,7 +4,7 @@ import '../styles/contact.css'
 const Contact = () => {
 
     return(
-        <div className="contact-container">
+        <div id='contact' className="contact-container">
             <header className='contact-header'>
                 <Nav />
             </header>
