@@ -5,7 +5,7 @@ const About = () => {
 
     return(
         <div id='about' className="about-container">
-             <header className='contact-header'>
+             <header className='header'>
                 <Nav />
             </header>
             <section>

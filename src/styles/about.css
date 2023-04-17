@@ -3,7 +3,8 @@
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    min-width: 100%;
+    width: 100vw;
+    /*transform: translatey(-100%) translateX(-100%); */
 }
 
 
@@ -11,6 +12,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-width: 75%;
+    
 }
 
 

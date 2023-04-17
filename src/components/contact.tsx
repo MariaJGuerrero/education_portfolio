@@ -8,7 +8,7 @@ const Contact = () => {
             <header className='contact-header'>
                 <Nav />
             </header>
-            <section>
+            <section className='contact-section'>
             <h2 className='title'>Contact me</h2>
                 <div className='message'>
                     <p>

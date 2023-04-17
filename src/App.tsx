@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="App">
       <CardsPage />
-      {/*<Introduction />
+      <Introduction />
       <Contact />
       <About />
-      <Proyects />*/}
+      <Proyects />
 
     </div>
   )
