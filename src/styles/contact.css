@@ -5,8 +5,16 @@
     width: 100vw;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.contact-in{
     opacity: 1;
-    /*transform: translateX(100%)*/
+    transform: scale(1);
 }
 
 .contact-header{

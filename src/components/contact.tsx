@@ -1,12 +1,12 @@
 import Nav from '../components-pure/nav';
 import '../styles/contact.css'
 
-const Contact = () => {
+const Contact = ({ isActiveSection} : {isActiveSection: boolean}) => {
 
     return(
-        <div id='contact' className="contact-container">
+        <div id='contact' className={`contact-container ${isActiveSection ? 'contact-in' : ''}`}>
             <header className='contact-header'>
-                <Nav />
+                <Nav id='#contact'/>
             </header>
             <section className='contact-section'>
             <h2 className='title'>Contact me</h2>

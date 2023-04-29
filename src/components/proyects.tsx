@@ -1,12 +1,12 @@
 import Nav from "../components-pure/nav";
 import '../styles/proyects.css'
 
-const Proyects = () => {
+const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
 
     return(
-        <div id="proyects" className="proyectsPage-container">
+        <div id="proyects" className={`proyectsPage-container ${isActiveSection ? 'proyects-in' : ''}`}>
              <header className='contact-header'>
-                <Nav />
+                <Nav id='#proyects' />
             </header>
             <section>
                 <h2 className='title'>My Proyects</h2>
