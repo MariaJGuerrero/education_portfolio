@@ -1,13 +1,9 @@
-import Nav from '../components-pure/nav';
 import '../styles/about.css'
 
 const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
 
     return(
-        <div id='about' className={`about-container ${isActiveSection ? 'about-in' : ''}`}>
-             <header className='header'>
-                <Nav id='#about' />
-            </header>
+        <div id='about' className={`about-container ${isActiveSection ? 'about-in' : 'about-container'}`}>
             <section>
                 <h2 className='title'>About me</h2>
                 <div className="imgAndText-container1">

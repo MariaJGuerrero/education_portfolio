@@ -3,20 +3,19 @@ import { sections, setActiveSections } from '../models/types';
 import '../styles/card-page.css'
 
 
-const CardsPage = ({ setActiveSection}: {setActiveSection: setActiveSections }) => {
+const CardsPage = ({ setActiveSection, setMoveOut, moveOut }: {setActiveSection: setActiveSections, setMoveOut: React.Dispatch<React.SetStateAction<boolean>>, moveOut: boolean }) => {
 
-    const [moveOut, setMoveOut] = useState(false)
+    
 
     const clickHandler = (section: sections ) => {
-        console.log('click en la flecha')
-        setActiveSection(section)
         setMoveOut(true)
+        setActiveSection(section)
     }
     
     return(
         <>
             <div id='cardsPage' className="cardsPage-container">
-                <div className={`left ${moveOut ? 'cards-left-out' : ''}`}>
+                <div className={` ${moveOut ? 'cards-left-out' : 'left'}`}>
                     <div className="contact">
                         <div className="card border-secondary bg-transparent mb-3" style= {{listStyle: 'none'}}>
                             <div className="card-body">
@@ -46,7 +45,7 @@ const CardsPage = ({ setActiveSection}: {setActiveSection: setActiveSections }) 
                         </div>
                     </div>
                 </div>
-                <div className={`right ${moveOut ? 'cards-right-out' : ''}`}>
+                <div className={` ${moveOut ? 'cards-right-out' : 'right'}`}>
                     <div className="proyects">
                         <div className="card  border-secondary bg-transparent">
                             <div className="card-body">

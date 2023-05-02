@@ -7,23 +7,24 @@
     align-items: center;
     font-family: 'Gruppo', cursive;
     position: absolute;
-    transform: translateY(0);
-    transition: 1s;
-    transition-timing-function: ease-in;
+    transition: 0.5s ease-in;
+    
 }
 
 .left,
 .right{
     transform: translateY(0);
-    transition: 0.5s;
+    transition: 0.5s ease-in;
 }
 
 .cards-left-out{
-    transform: translateY(-100vh);
+    transform: translateY(-150vh);
+    transition: 0.5s ease-in;
 }
 
 .cards-right-out{
-    transform: translateY(100vh);
+    transform: translateY(150vh);
+    transition: 0.5s ease-in;
 }
 
 

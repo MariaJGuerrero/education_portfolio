@@ -1,13 +1,9 @@
-import Nav from "../components-pure/nav";
 import '../styles/proyects.css'
 
 const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
 
     return(
-        <div id="proyects" className={`proyectsPage-container ${isActiveSection ? 'proyects-in' : ''}`}>
-             <header className='contact-header'>
-                <Nav id='#proyects' />
-            </header>
+        <div id="proyects" className={`proyectsPage-container ${isActiveSection ? 'proyects-in' : 'proyectsPage-container'}`}>
             <section>
                 <h2 className='title'>My Proyects</h2>
                 <ul className="list-container" style={{listStyle: 'none'}}>
