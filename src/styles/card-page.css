@@ -30,12 +30,13 @@
 
 .card-title{
     font-weight: bolder;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .card-text{
     font-size: 1.5rem;
 }
+
 
 .contact{
     /*background-color: #AAC4FF;*/
