@@ -6,18 +6,62 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
         <div id="proyects" className={`proyectsPage-container ${isActiveSection ? 'proyects-in' : 'proyectsPage-container'}`}>
             <section>
                 <h2 className='title'>My Proyects</h2>
-                <ul className="list-container" style={{listStyle: 'none'}}>
-                   <li className="proyect-container"><h4>Proyect 1</h4>Some quick example text to build on the card title and make up the bulk of the card's content.</li>
-                   <li className="proyect-container"><h4>proyect 2</h4>Some quick example text to build on the card title and make up the bulk of the card's content.</li>
-                   <li className="proyect-container"><h4>Proyect 3</h4>Some quick example text to build on the card title and make up the bulk of the card's content.</li>
-                   <li className="proyect-container"><h4>Proyect 4</h4>Some quick example text to build on the card title and make up the bulk of the card's content.</li>
-                   <li className="proyect-container"><h4>Proyect 5</h4>Some quick example text to build on the card title and make up the bulk of the card's content.</li>
-                   <li className="proyect-container"><h4>Proyect 6</h4>Some quick example text to build on the card title and make up the bulk of the card's content.</li>
-                </ul>
+                <table className="list-container table-light table-striped" style={{listStyle: 'none'}}>
+                    <tr className="proyect-container table-light">
+                        <td className='image'>
+                        <img src="" alt="" />
+                        </td>
+                        <td className='text'>
+                            <h4>Multipligamos</h4>
+                            App que inventé para aprender las tablas de multiplicar de una forma lúdica.
+                            <span> React | css | javascript</span> 
+                        </td>
+                    </tr>
+                    <tr className="proyect-container table-light">
+                        <td className='image'>
+                        <img src="" alt="" />
+                        </td>
+                        <td className='text'>
+                            <h4>To-Do list</h4>
+                            Proyecto final del curso de React de Openbootcamp.
+                            <span>React | CSS | Javascript</span>
+                        </td>
+                    </tr>
+                    <tr className="proyect-container table-light">
+                        <td className='image'>
+                        <img src="" alt="" />
+                        </td>
+                        <td className='text'>
+                            <h4>Blog</h4>
+                            Simulación de un blog. LLamadas http a un backend falso.
+                            <span> HTML | CSS | Javascript </span>
+                        </td>
+                    </tr>
+                    <tr className="proyect-container table-light">
+                        <td className='image'>
+                            <img src="" alt="" />
+                        </td>
+                        <td className='text'>
+                            <h4>Shopping-list app</h4>
+                            App que gestiona diferentes listas. Con identificación y llamadas http a backend real.
+                            <span> React | Material UI | typescript </span>
+                        </td>
+                    </tr>
+                    <tr className="proyect-container table-light">
+                        <td className='image'>
+                            <img src="" alt="" />
+                        </td>
+                        <td className='text'>
+                            <h4>Next proyect?</h4>
+                            ¿Cuál será mi siguiente proyecto?
+                        </td>
+                    </tr>
+                </table>
             </section>
 
         </div>
     )
 }
+
 
 export default Proyects;
