@@ -1,8 +1,7 @@
 #root {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   font-family: 'Gruppo', cursive;
   background-color: #EEF1FF;

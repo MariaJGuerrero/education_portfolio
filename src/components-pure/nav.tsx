@@ -1,7 +1,7 @@
 
 const Nav = () => {
     return(
-        <div className="nav-container">
+        <div style={{width: '100vw'}} className="nav-container">
             <nav style={{marginLeft: 10}} className="navbar bg-body-tertiary">
                     <div className="container">
                         <a className="navbar-brand">
