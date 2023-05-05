@@ -17,7 +17,7 @@ const CardsPage = ({ setActiveSection, setMoveOut, moveOut }: {setActiveSection:
             <div id='cardsPage' className="cardsPage-container">
                 <div className={` ${moveOut ? 'cards-left-out' : 'left'}`}>
                     <div className="contact">
-                        <div className="card border-secondary bg-transparent mb-3" style= {{listStyle: 'none'}}>
+                        <div className="card border-light bg-transparent mb-3" style= {{listStyle: 'none'}}>
                             <div className="card-body">
                                 <h5 className="card-title">Contact</h5>
                                 <p className="card-text">
@@ -42,7 +42,7 @@ const CardsPage = ({ setActiveSection, setMoveOut, moveOut }: {setActiveSection:
                         </div>
                     </div>
                     <div className="about">
-                        <div className="card border-secondary bg-transparent mb-3" style= {{listStyle: 'none'}}>
+                        <div className="card border-light bg-transparent mb-3" style= {{listStyle: 'none'}}>
                             <div className="card-body">
                                 <h5 className="card-title">About</h5>
                                 <p className="card-text">Me considero una persona curiosa a la que le gustan los desafíos. ¿Tendrás algún desafío para mí?</p>
@@ -57,7 +57,7 @@ const CardsPage = ({ setActiveSection, setMoveOut, moveOut }: {setActiveSection:
                 </div>
                 <div className={` ${moveOut ? 'cards-right-out' : 'right'}`}>
                     <div className="proyects">
-                        <div className="card  border-secondary bg-transparent">
+                        <div className="card  border-light bg-transparent">
                             <div className="card-body">
                                 <h2 className="card-title">Proyects</h2>
                                 <ul className="card-text"><h6>Algunos proyectos en los que he trabajado:</h6>
@@ -68,7 +68,7 @@ const CardsPage = ({ setActiveSection, setMoveOut, moveOut }: {setActiveSection:
                                     <li className="card-text" style= {{listStyle: 'none'}}>?</li>
                                 </ul>
                                 <a onClick={()=> clickHandler('proyects')} className="card-link">
-                                    <svg style={{color:'blueviolet' }} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <svg style={{color:'blueviolet' }} xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
                                     </svg>
                                 </a>

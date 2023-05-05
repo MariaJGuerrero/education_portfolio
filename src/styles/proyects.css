@@ -16,7 +16,9 @@
     transform: scale(1);
 }
 
-
+.list-container{
+    margin: auto
+}
 
 .proyect-container{
     display: flex;
@@ -26,15 +28,20 @@
     margin: 30px;
 }
 
-.image{
+.image-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100px;
     min-width: 100px;
+    margin-right: 20px;
 }
 
+.image{
+    max-width: 200px;
+    max-height: 200px;
+}
 .text{
     display: flex;
     flex-direction: column;

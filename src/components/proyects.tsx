@@ -8,8 +8,8 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
                 <h2 className='title'>My Proyects</h2>
                 <table className="list-container table-light table-striped" style={{listStyle: 'none'}}>
                     <tr className="proyect-container table-light">
-                        <td className='image'>
-                        <img src="" alt="" />
+                        <td className='image-container'>
+                        <img className='image' src="/images/tablas.jpeg" alt="tablas multiplicar" />
                         </td>
                         <td className='text'>
                             <h4>Multipligamos</h4>
@@ -18,8 +18,8 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
                         </td>
                     </tr>
                     <tr className="proyect-container table-light">
-                        <td className='image'>
-                        <img src="" alt="" />
+                        <td className='image-container'>
+                        <img className='image' src="" alt="" />
                         </td>
                         <td className='text'>
                             <h4>To-Do list</h4>
@@ -28,8 +28,8 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
                         </td>
                     </tr>
                     <tr className="proyect-container table-light">
-                        <td className='image'>
-                        <img src="" alt="" />
+                        <td className='image-container'>
+                        <img className='image' src="" alt="" />
                         </td>
                         <td className='text'>
                             <h4>Blog</h4>
@@ -38,8 +38,8 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
                         </td>
                     </tr>
                     <tr className="proyect-container table-light">
-                        <td className='image'>
-                            <img src="" alt="" />
+                        <td className='image-container'>
+                            <img className='image' src="" alt="" />
                         </td>
                         <td className='text'>
                             <h4>Shopping-list app</h4>
@@ -48,8 +48,8 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
                         </td>
                     </tr>
                     <tr className="proyect-container table-light">
-                        <td className='image'>
-                            <img src="" alt="" />
+                        <td className='image-container'>
+                            <img className='image' src="" alt="" />
                         </td>
                         <td className='text'>
                             <h4>Next proyect?</h4>
