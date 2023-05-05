@@ -25,13 +25,14 @@ const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
                             y empecé a ponerlo en práctica con proyectos propios y con cada proyecto iba descrubriendo alguna 
                             cosa nueva que quería experimentar y me iba "enganchando" más y más...
                         </p>
+                        <a className='introduction' href="https://drive.google.com/file/d/1F-kHLsRSpN-QvWE4gzCyJFDC07-HPbL2/view?usp=share_link">PRESENTACiÓN</a>
                         <p>
                             Si tienes por ahí algún reto, desafío, proyecto... házmelo saber, me encantará escucharte y 
                             contarte cómo puedo contribuir en él.
                         </p>
                     </div>
                     <div className="img2" >
-                        <img src="/images/woman-at-work.jpg" alt="woman at work" />
+                        <img src="/images/woman_pc.jpg" alt="woman at work" />
                     </div>
                 </div>
             </section>

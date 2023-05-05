@@ -39,6 +39,7 @@
     font-size: 1.8rem;
 }
 
+
 .cv-photo{
     width: 300px;
     margin: 30px;
@@ -57,4 +58,8 @@
 .text2{
     margin: 30px;
     font-size: 1.8rem;
+}
+
+.introduction{
+    margin: 40px;
 }
