@@ -12,18 +12,21 @@
 
 .left,
 .right{
+    opacity: 1;
     transform: translateY(0);
     transition: 0.5s ease-in;
     width: 50vw;
 }
 
 .cards-left-out{
-    transform: translateY(-150vh);
+    opacity: 0;
+    transform: translateY(-200vh);
     transition: 0.5s ease-in;
 }
 
 .cards-right-out{
-    transform: translateY(150vh);
+    opacity: 0;
+    transform: translateY(200vh);
     transition: 0.5s ease-in;
 }
 

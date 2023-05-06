@@ -23,7 +23,7 @@ function App() {
       <Introduction />
       {activeSection 
       ? 
-        <button className='button'  onClick={()=>{reverse()}}><Nav /></button> 
+        <button className='button'  onClick={()=>{reverse()}} style={{position: 'sticky'}}><Nav /></button> 
       : 
         undefined 
       }
