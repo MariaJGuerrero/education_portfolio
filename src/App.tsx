@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Nav from './components-pure/nav'
+import House from './components-pure/nav'
 import About from './components/about'
 import CardsPage from './components/cards-page'
 import Contact from './components/contact'
@@ -19,14 +19,14 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" style={{position: 'relative', minHeight: '100vh'}}>
       <Introduction />
-      {activeSection 
-      ? 
-        <button className='button'  onClick={()=>{reverse()}} style={{position: 'sticky'}}><Nav /></button> 
-      : 
-        undefined 
-      }
+      {/*<div className='button-container'>*/}
+        {activeSection 
+          ? <div className='button'  onClick={()=>{reverse()}} style={{marginLeft: 20}} ><House /></div> 
+          : undefined 
+        }
+      {/*</div>*/}
       <CardsPage 
         setActiveSection={setActiveSection}
         setMoveOut={setMoveOut}
