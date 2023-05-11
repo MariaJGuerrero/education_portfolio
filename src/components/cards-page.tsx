@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { sections, setActiveSections } from '../models/types';
 import '../styles/card-page.css'
 

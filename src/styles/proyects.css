@@ -1,6 +1,6 @@
 .proyectsPage-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     background-color: #EEF1FF;
     min-height: 100vh;
@@ -11,12 +11,46 @@
     transition: 0.5s;
 }
 
+.cards-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
 .proyects-in{
     opacity: 1;
     transform: scale(1);
 }
 
-.list-container{
+.proyect-card-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    opacity: 1;
+    transform: translateX();
+}
+
+.proyect-card-no-active{
+    opacity: 0;
+}
+
+.card-img-top{
+    width: 75%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/*.list-container{
     margin: auto
 }
 
@@ -52,4 +86,4 @@
 
 .text h4{
     font-size: 1.8em;
-}
+}*/

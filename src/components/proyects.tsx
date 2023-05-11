@@ -1,66 +1,36 @@
+import { useState } from 'react'
+import { proyectsArrayType } from '../models/types'
 import '../styles/proyects.css'
+import { proyectsArray } from '../utils/proyects-array'
+
 
 const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
 
+    const [isActiveCard, setIsActiveCard] = useState()
+
+     let proyects: proyectsArrayType = proyectsArray
+
     return(
         <div id="proyects" className={`proyectsPage-container ${isActiveSection ? 'proyects-in' : 'proyectsPage-container'}`}>
-            <section className='proyects-section'>
+            <main>
                 <h2 className='title'>My Proyects</h2>
-                <table className="list-container  table" style={{listStyle: 'none'}}>
-                    <tbody>
-                        <tr className="proyect-container">
-                            <td className='image-container'>
-                                <img className='image' src="/images/tablas.jpeg" alt="tablas multiplicar" />
-                            </td>
-                            <td className='text'>
-                                <h4>Multipligamos</h4>
-                                App que inventé para aprender las tablas de multiplicar de una forma lúdica.
-                                <span> React | CSS | Javascript</span> 
-                            </td>
-                        </tr>
-                        <tr className="proyect-container">
-                            <td className='image-container'>
-                                <img className='image' src="" alt="" />
-                            </td>
-                            <td className='text'>
-                                <h4>To-Do list</h4>
-                                Proyecto final del curso de React de Openbootcamp.
-                                <span>React | CSS | Javascript</span>
-                            </td>
-                        </tr>
-                        <tr className="proyect-container">
-                            <td className='image-container'>
-                                <img className='image' src="" alt="" />
-                            </td>
-                            <td className='text'>
-                                <h4>Blog</h4>
-                                Simulación de un blog. Api (Json Placeholder)
-                                <span> React | CSS | Javascript | Peticiones API REST </span>
-                            </td>
-                        </tr>
-                        <tr className="proyect-container">
-                            <td className='image-container'>
-                                <img className='image' src="" alt="" />
-                            </td>
-                            <td className='text'>
-                                <h4>Shopping-list app</h4>
-                                App que gestiona diferentes listas.
-                                <span> React | Material UI | Typescript | Peticiones API REST | Auth Token </span>
-                            </td>
-                        </tr>
-                        <tr className="proyect-container">
-                            <td className='image-container'>
-                                <img className='image' src="" alt="" />
-                            </td>
-                            <td className='text'>
-                                <h4>Next proyect?</h4>
-                                ¿Cuál será mi siguiente proyecto?
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
+                <section className='cards-section'>
+                    <button>anterior</button>
+                    {proyects.map((proyect)=> 
+                        <div className={`card border-light bg-light mb-3 ${isActiveCard ? 'proyect-card-active' : 'proyect-card-no-active'}`} style={{width: '40rem'}}>
+                            <img src={proyect.image} className="card-img-top image" alt="multiplicar" />
+                            <div className="card-body">
+                                <h5 className="card-title">{proyect.title}</h5>
+                                <p className="card-text">
+                                    {proyect.description} 
+                                </p>
+                                <p className="card-text"> {proyect.tecnologies}</p>
+                            </div>
+                        </div>
+                     )}
+                     <button>posterior</button>
+                </section>
+            </main>
         </div>
     )
 }
