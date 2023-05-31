@@ -47,10 +47,16 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
-    
+    transition: 0.5s;
 }
 
+.move-left{
+    transform: translateX(-580px);
+}
 
+.move-right{
+    transform: translateX(580px);
+}
 
 .card-img-top{
     width: 75%;

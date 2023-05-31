@@ -15,11 +15,9 @@
     transform: scale(1);
 }
 
-.contact-header{
-    display: flex;
-    justify-content: flex-start;
-    margin: 30px;
-    width: 100%;
+
+p{
+    padding: 10px;
 }
 
 .contact-section{
@@ -34,14 +32,22 @@
     font-size: 5.5em;
 }
 
-.message{
+.contact-text{
     margin: 30px;
     font-size: 1.8em;
 }
 
-.footer{
+.form{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.box{
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px gray solid;
 }
