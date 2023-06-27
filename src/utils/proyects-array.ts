@@ -1,12 +1,14 @@
  export let proyectsArray = [
     {
+        id: 'proyect 1',
         image: '/images/tablas.jpeg',
         title: 'Multipligamos',
         description: 'App que inventé para aprender las tablas de multiplicar de una forma lúdica.',
         tecnologies: 'React | CSS | Javascript',
 
     },
-    {
+    { 
+        id: 'proyect 2',
         image: '/images/tablas.jpeg',
         title: 'To-Do list',
         description: 'Proyecto final del curso de React de Openbootcamp.',
@@ -14,6 +16,7 @@
 
     },
     {
+        id: 'proyect 3',
         image: '/images/tablas.jpeg',
         title: 'Blog',
         description: 'Simulación de un blog. Api (Json Placeholder)',
@@ -21,6 +24,7 @@
 
     },
     {
+        id: 'proyect 4',
         image: '/images/tablas.jpeg',
         title: 'Shopping-list app',
         description: 'App que gestiona diferentes listas.',

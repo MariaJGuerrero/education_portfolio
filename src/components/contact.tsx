@@ -8,7 +8,7 @@ const Contact = ({ isActiveSection} : {isActiveSection: boolean}) => {
             <h2 className='title'>Contact me</h2>
                 <div className='contact-text'>
                     <p>
-                        Hi there! Choose the way you prefer to talk with me. 
+                        ¿Qué tal? Elige el medio que prefieras para hablarme. 
                     </p>
                     <a href='' style={{color: 'blueviolet', margin: 10, padding: 10}}>
                         <svg style={{margin: 10}} xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-envelope-at" viewBox="0 0 16 16">
@@ -28,7 +28,7 @@ const Contact = ({ isActiveSection} : {isActiveSection: boolean}) => {
                     </form>
                     <p style={{ margin: 10}}>
                         
-                        I will love/ `ll be glad to answer you and tell you how I can contribute to your team.
+                        Estaré encantada de responder y contarte cómo puedo contribuir a tu equipo.
                     </p>
                    
                 </div>

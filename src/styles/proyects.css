@@ -17,15 +17,10 @@
     transform: scale(1);
 }
 
-
-.cards-section{
+.button-section{
     display: flex;
-    flex-direction: row;
-    overflow: auto;
-    position:relative;
-    max-width: 100vw;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    height: 70px;
 }
 
 .cards-buttons{
@@ -33,6 +28,15 @@
     position: absolute;
     z-index: 100;
     background-color: transparent;
+}
+
+
+.cards-section{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    max-width: 100vw;
+    scroll-behavior: smooth;
 }
 
 
@@ -48,15 +52,9 @@
     align-items: center;
     margin: 20px;
     transition: 0.5s;
+    flex: auto;
 }
 
-.move-left{
-    transform: translateX(-580px);
-}
-
-.move-right{
-    transform: translateX(580px);
-}
 
 .card-img-top{
     width: 75%;
