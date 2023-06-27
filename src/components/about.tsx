@@ -31,8 +31,8 @@ const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
                             contarte cómo puedo contribuir en él.
                         </p>
                     </div>
-                    <div className="img2" >
-                        <img src="/images/woman_pc.jpg" alt="woman at work" />
+                    <div  >
+                        <img className="img2" src="/images/captura-codigo.png" alt="code" />
                     </div>
                     <p className="text1">¡Qué tengas muy buen día!</p>
                 </div>
