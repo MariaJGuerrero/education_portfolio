@@ -30,6 +30,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: #EEF1FF;
+  overflow: hidden;
 }
 
 h1 {

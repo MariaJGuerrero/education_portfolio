@@ -5,7 +5,7 @@
   text-align: center;
   font-family: 'Gruppo', cursive;
   background-color: #EEF1FF;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 .App{
   display: flex;
@@ -19,13 +19,6 @@
 .read-the-docs {
   color: #888;
 }
-
-
-/*.button-container{
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-}*/
 
 
 .button{

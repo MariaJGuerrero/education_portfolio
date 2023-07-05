@@ -12,9 +12,9 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
     const movingProyects = (direction: string)=> {
         const container = document.querySelector('.cards-section')
         if(container && direction === 'left'){
-            container.scrollLeft += 580;
+            container.scrollLeft -= 580;
         }else if (container && direction === 'right'){
-            container.scrollLeft -= 580; 
+            container.scrollLeft += 580; 
         }else{
             alert('something is wrong')
         }
@@ -43,13 +43,13 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
                             <div className='image-container'>
                             <img style={{maxWidth: '75%'}} src={proyect.image} className="card-img-top image" alt="captura de pantalla" />
                             </div>
-                            <div className="card-body">
+                            <a className="card-body" href={proyect.href} target="_blank">
                                 <h5 className="card-title">{proyect.title}</h5>
                                 <p className="card-text">
                                     {proyect.description} 
                                 </p>
                                 <p className="card-text"> {proyect.tecnologies}</p>
-                            </div>
+                            </a>
                         </div>
                      )}
                 </section>

@@ -1,14 +1,16 @@
 .about-container{
     display: flex;
-    justify-content: center;
+   
     flex-direction: column;
-    min-height: 100vh;
-    min-width: 100vw;
+    flex-wrap: wrap;
     position: absolute; 
     opacity: 0;
     transform: scale(0);
     transition: 0.5s;
     background-color: #EEF1FF;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
 }
 
 .about-in{
@@ -18,7 +20,6 @@
 
 .about-section{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -26,6 +27,8 @@
 
 .imgAndText-container1{
     display: flex;
+    flex-wrap: wrap;
+    flex: 1;
     justify-content: space-around;
     align-items: center;
     max-width: 75vw;
@@ -41,7 +44,7 @@
 
 
 .cv-photo{
-    width: 300px;
+    max-width: 300px;
     margin: 30px;
     border-radius: 50%;
 }
@@ -56,6 +59,9 @@
 
 
 .text2{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
     margin: 30px;
     font-size: 1.8rem;
 }
