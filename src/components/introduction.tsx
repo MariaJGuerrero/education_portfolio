@@ -12,16 +12,17 @@ const Introduction = () => {
     return(
         <div className={`introduction-container ${moveOut ? 'introduction-container-out' : ''}`}>
             <header className='introduction-header'>
-                <h1 className='title' style={{color: 'white'}}>M. José Guerrero</h1>
-                <h4 className='frontend'>Frontend Developer</h4>
+                <h1 className='title' style={{color: 'white'}}><span style={{color: '#6499E9'}}>&lt;h1&gt;</span>M. José Guerrero<span style={{color: '#6499E9'}}>&lt;/h1&gt;</span></h1>
+                <h4 className='frontend'><span style={{color: '#6499E9'}}>&lt;p&gt;</span>Frontend Developer<span style={{color: '#6499E9'}}>&lt;/p&gt;</span></h4>
             </header>
             <section className='introduction-section'>
-                <h6 className='portfolio'>Portfolio</h6>
-                <a onClick={()=>clickHandler()}>
-                    <svg style={{color:'blueviolet', fontWeight: 'bolder'}} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
-                        <path fillRule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
-                    </svg>
-                </a>
+                <h6 className='portfolio'>
+                    <span style={{color: '#6499E9'}}>&lt;a <span style={{color: '#9BB8CD'}}>onClick=</span><span className='llaves' style={{color: 'blue'}}>&#123;</span><span className='parentesis' style={{color: '#FEFFAC'}}>&#40; &#41;</span><span className='flecha'>=&gt;</span><span style={{color: '#FEFFAC'}}>clickHandler&#40; &#41;</span><span className='llave' style={{color: 'blue'}}>&#125;</span>&gt;</span>
+                        <button style={{border: 'none', backgroundColor: 'transparent'}} onClick={()=>clickHandler()}>
+                            Portfolio
+                        </button>
+                    <span style={{color: '#6499E9'}}>&lt;/a&gt;</span>
+                </h6>
             </section>
             
         </div>
