@@ -16,7 +16,14 @@
     opacity: 1;
     transform: translateY(0);
     transition: 0.5s ease-in;
-    min-width: 300px;
+    min-width: 50%;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .cards-left-out{

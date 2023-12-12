@@ -1,12 +1,9 @@
 .introduction-container{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
-    background-image: url('/images/workplace.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #BCCEF8;
     min-height: 100vh;
     min-width: 100vw;
     position: absolute;
@@ -18,27 +15,14 @@
     transform: translateY(-150vh);
 }
 
-.introduction-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .frontend{
     color: white; 
     font-size: 3em;
     font-weight: bold;
+    margin-bottom: 100px;
 }
 
-.introduction-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    
-}
 
 .portfolio{
     color: white; 

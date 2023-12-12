@@ -53,6 +53,7 @@
 .imgAndText-container2{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     max-width: 80vw;
 }
@@ -64,6 +65,13 @@
     flex: 1;
     margin: 30px;
     font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    display: flex;
+    justify-self: center;
 }
 
 .img2{

@@ -23,9 +23,10 @@ const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
                         <p>
                             Así que investigando, leyendo, preguntando... poco a poco me fui "enganchando" a esto de programar
                             y empecé a ponerlo en práctica con proyectos propios y con cada proyecto iba descrubriendo alguna 
-                            cosa nueva que quería experimentar y me iba "enganchando" más y más...
+                            cosa nueva que quería experimentar y me iba "enganchando" más y más... y desde entonces no he dejado de 
+                            hacer poyectos ni de investigar cosas nuevas.
                         </p>
-                        <video src="/Presentacion_23.mp4" width="300" height="440" controls></video>
+                        <video className="video" src="/Presentacion_23.mp4" width="300" height="440" controls></video>
                         <p>
                             Si tienes por ahí algún reto, desafío, proyecto... házmelo saber, me encantará escucharte y 
                             contarte cómo puedo contribuir en él.

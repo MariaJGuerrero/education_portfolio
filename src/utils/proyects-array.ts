@@ -28,7 +28,7 @@
     },
     {
         id: 'proyect 4',
-        image: '/images/tablas.jpeg',
+        image: '/images/shopping-list.png',
         title: 'Shopping-list app',
         description: 'App que gestiona diferentes listas.',
         tecnologies: ' React | Material UI | Typescript | Peticiones API REST | Auth Token',
