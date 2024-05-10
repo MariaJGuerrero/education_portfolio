@@ -1,38 +1,58 @@
  export let proyectsArray = [
     {
         id: 'proyect 1',
-        image: '/images/multipligamos.png',
-        title: 'Multipligamos',
-        description: 'App que inventé para aprender las tablas de multiplicar de una forma lúdica.',
-        tecnologies: 'React | CSS | Javascript',
-        href: 'https://github.com/MariaJGuerrero/app-multiplicaciones',
+        date: '2003-2007',
+        description: 'Magisterio, Belros, LSE.',
+        
+        
 
     },
     { 
         id: 'proyect 2',
-        image: '/images/to-do_list.png',
-        title: 'To-Do list',
-        description: 'Proyecto final del curso de React de Openbootcamp.',
-        tecnologies: 'React | CSS | Javascript',
-        href: 'https://github.com/MariaJGuerrero/Task-manager'
+        date: '2007-2009',
+        description: 'Curso Anpe, Covirán, ONZA.',
+        
+        
 
     },
     {
         id: 'proyect 3',
-        image: '/images/blog.png',
-        title: 'Blog',
-        description: 'Simulación de un blog. Api (Json Placeholder)',
-        tecnologies: 'React | CSS | Javascript | Peticiones API REST',
-        href:'https://github.com/MariaJGuerrero/blog'
+        date: '2009',
+        description: 'Escuela verano Cenes.',
+        
+       
 
     },
     {
         id: 'proyect 4',
-        image: '/images/shopping-list.png',
-        title: 'Shopping-list app',
-        description: 'App que gestiona diferentes listas.',
-        tecnologies: ' React | Material UI | Typescript | Peticiones API REST | Auth Token',
-        href:'https://github.com/MariaJGuerrero/Lists-App'
+        date: '2010-2012',
+        description: 'Infoarte',
+      
+       
+
+    },
+    {
+        id: 'proyect 5',
+        date: '2012-2013',
+        description: 'Dedi, Curso Resolución conflictos.',
+      
+       
+
+    },
+    {
+        id: 'proyect 6',
+        date: '2013-2018',
+        description: 'Pitágoras Pulianas, Pedagogías alternativas, Disciplina positiva.',
+      
+       
+
+    },
+    {
+        id: 'proyect 7',
+        date: '2019-actualidad',
+        description: 'Lizama, Openbootcamp, inglés.',
+      
+       
 
     },
 ]

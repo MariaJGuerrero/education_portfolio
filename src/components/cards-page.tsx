@@ -48,12 +48,12 @@ const CardsPage = ({ setActiveSection, setMoveOut, moveOut }: {setActiveSection:
                     <div  onClick={()=> clickHandler('proyects')} className="proyects">
                         <div className="card  border-light bg-transparent">
                             <div className="card-body">
-                                <h2 className="card-title">Proyects</h2>
-                                <ul className="card-text"><h6>Algunos proyectos en los que he trabajado:</h6>
-                                    <li className="card-text" style= {{listStyle: 'none'}}>Multipligamos</li>
-                                    <li className="card-text" style= {{listStyle: 'none'}}>To-Do list</li>
-                                    <li className="card-text" style= {{listStyle: 'none'}}>Blog</li>
-                                    <li className="card-text" style= {{listStyle: 'none'}}>Shopping-list app</li>
+                                <h2 className="card-title">Experience</h2>
+                                <ul className="card-text"><h6>Algunos proyectos en los que he trabajado/estudiado:</h6>
+                                    <li className="card-text" style= {{listStyle: 'none'}}>Magisterio Infantil</li>
+                                    <li className="card-text" style= {{listStyle: 'none'}}>Escuelas de Verano</li>
+                                    <li className="card-text" style= {{listStyle: 'none'}}>Clases de apoyo</li>
+                                    <li className="card-text" style= {{listStyle: 'none'}}>Desarrollo web</li>
                                     <li className="card-text" style= {{listStyle: 'none'}}>?</li>
                                 </ul>
                             </div>

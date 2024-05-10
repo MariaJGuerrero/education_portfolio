@@ -24,7 +24,7 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
     return(
         <div id="proyects" className={`proyectsPage-container ${isActiveSection ? 'proyects-in' : 'proyectsPage-container'}`}>
             <main>
-                <h2 className='title'>My Proyects</h2>
+                <h2 className='title'>My Experience</h2>
                 <section className='button-section'>
                     <button style={{ color: 'black' }}  className='cards-buttons' onClick={()=> movingProyects('left')}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
@@ -40,16 +40,10 @@ const Proyects = ({ isActiveSection} : {isActiveSection: boolean}) => {
                 <section className='cards-section'>
                     {proyects.map((proyect)=> 
                         <div id={proyect.id} className='card border-light bg-light mb-3 proyect-card' style={{minWidth: '35rem'}}>
-                            <div className='image-container'>
-                            <img style={{maxWidth: '75%'}} src={proyect.image} className="card-img-top image" alt="captura de pantalla" />
-                            </div>
-                            <a className="card-body" href={proyect.href} target="_blank">
-                                <h5 className="card-title">{proyect.title}</h5>
+                                <h5 className="card-title">{proyect.date}</h5>
                                 <p className="card-text">
                                     {proyect.description} 
                                 </p>
-                                <p className="card-text"> {proyect.tecnologies}</p>
-                            </a>
                         </div>
                      )}
                 </section>

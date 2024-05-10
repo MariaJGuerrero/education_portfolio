@@ -9,9 +9,11 @@ const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
                 <div className="imgAndText-container1">
                     <div className="text1">
                         <p>
-                            ¡Hola! ¿Cómo estás? Soy Marijose, Desarrolladora Frontend y persona curiosa (me gusta saber el porqué de todo)
-                            y gracias a esto conseguí las herramientas para ser una persona independiente y resolutiva, y también lo que me trajo a este 
-                            mundillo, querer saber cómo funciona.
+                            ¡Hola! ¿Cómo estás? Soy Marijose, Educadora, Desarrolladora Frontend (amateur) y persona curiosa.
+                            Una de las cosas que más curiosidad me ha generado desde siempre es la infancia ¿Cómo ven los niños el mundo?,
+                            ¿Cuáles con sus necesidades?, ¿Cúal es la mejor forma de fomentar todo su potencial?... Por eso decidí estudiar edcucación.
+                            
+                            
                         </p>
                     </div>
                     <div className="img1">
@@ -21,10 +23,15 @@ const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
                 <div className="imgAndText-container2">
                     <div className="text2">
                         <p>
-                            Así que investigando, leyendo, preguntando... poco a poco me fui "enganchando" a esto de programar
-                            y empecé a ponerlo en práctica con proyectos propios y con cada proyecto iba descrubriendo alguna 
-                            cosa nueva que quería experimentar y me iba "enganchando" más y más... y desde entonces no he dejado de 
-                            hacer poyectos ni de investigar cosas nuevas.
+                            Me considero responsable y organizada pero sin perder el sentido del humor, capaz de adaptarme rápidamente y de aprovechar cada oportunidad que se me presenta.
+                            
+                            por eso, y como persona curiosa que soy, también despertaron mi interés otras cosas como las nuevas tecnologías, los idiomas o el desarrollo web entre otros. 
+                            Explorar todas estas áreas me dió las herramientas para ser una persona independiente y resolutiva pero como mi gran pasión es la educacion, 
+                            siempre vuelvo a ella conectándolo todo <span><a href='https://multipligamos.netlify.app' target="_blank">https://multipligamos.netlify.app</a></span>
+                        </p>
+                        <p>
+                            Así que  sigo investigando y leyendo y preguntando sobre este mundo apasionante que es la infancia, para seguir mejorando como profesional y como persona
+                            porque creo firmemente en el potencial de los/as niños/as y porque quiero contribuir de forma positiva a su desarrollo y bienestar.
                         </p>
                         <video className="video" src="/Presentacion_23.mp4" width="300" height="440" controls></video>
                         <p>
