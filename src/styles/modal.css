@@ -1,0 +1,13 @@
+.main{
+    background-color: #EEF1FF;
+    color: black;
+}
+
+.closeButton{
+    display: flex;
+    justify-self: end;
+
+    position: sticky;
+    top: 20px; 
+    z-index: 100px;
+}

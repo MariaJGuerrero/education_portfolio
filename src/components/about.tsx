@@ -1,6 +1,11 @@
+import { useRef } from 'react';
 import '../styles/about.css'
+import Modal from '../utils/modal';
 
 const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
+
+    const dialogRef = useRef<HTMLDialogElement>(null)
+
 
     return(
         <div id='about' className={`about-container ${isActiveSection ? 'about-in' : 'about-container'}`}>
@@ -26,7 +31,16 @@ const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
                             Me considero responsable y organizada pero sin perder el sentido del humor, capaz de adaptarme rápidamente y de aprovechar cada oportunidad que se me presenta.
                             
                             por eso, y como persona curiosa que soy, también despertaron mi interés otras cosas como las nuevas tecnologías, los idiomas o el desarrollo web entre otros. 
-                            Explorar todas estas áreas me dió las herramientas para ser una persona independiente y resolutiva pero como mi gran pasión es la educacion, 
+                            Explorar todas estas áreas me dió las herramientas para ser una persona independiente y resolutiva 
+                            <span>
+                                <button onClick={()=> {dialogRef.current?.showModal()}} type="button" className="btn btn-primary">
+                                    (saber más)
+                                </button>
+                                <dialog ref={dialogRef}>
+                                    <Modal dialogRef={dialogRef.current}></Modal>
+                                </dialog>
+                            </span>
+                            pero como mi gran pasión es la educacion, 
                             siempre vuelvo a ella conectándolo todo <span><a href='https://multipligamos.netlify.app' target="_blank">https://multipligamos.netlify.app</a></span>
                         </p>
                         <p>
@@ -44,7 +58,7 @@ const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
                     </div>
                     <p className="text1">¡Qué tengas muy buen día!</p>
                 </div>
-            </section>
+            </section>    
         </div>
     )
 }
