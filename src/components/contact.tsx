@@ -8,7 +8,10 @@ const Contact = ({ isActiveSection} : {isActiveSection: boolean}) => {
             <h2 className='title'>Contact me</h2>
                 <div className='contact-text'>
                     <p>
-                        ¿Qué tal? Elige el medio que prefieras para hablarme. 
+                        ¿Qué tal? ¡Es genial saber de todos/as vosotros/as!
+                    </p>
+                    <p>
+                        Elige el medio que prefieras para hablarme. 
                     </p>
                     <a href='mailto:guerreromjosefa@gmail.com' style={{color: 'blueviolet', margin: 10, padding: 10}} target="_blank">
                         <svg style={{margin: 10}} xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-envelope-at" viewBox="0 0 16 16">
