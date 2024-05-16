@@ -41,21 +41,23 @@ const Proyects = ({ isActiveSection }: { isActiveSection: boolean }) => {
                     {proyects.map((proyect) =>
                         <div id={proyect.id} className='card border-light bg-light mb-3 proyect-card' style={{ minWidth: '35rem' }}>
                             <h5 className="card-title">{proyect.date}</h5>
-                            <div className="accordion accordion-flush" id="accordionFlushExample">
+                            
                                 {proyect.experiences.map((experience)=>
-                                <div className="accordion-item">
-                                    <h2 className="accordion-header">
-                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                             <p>{experience.title}</p>
-                                        </button>
+                                <div className="accordion accordion-flush" id={experience.id}>
+                                    <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#flush-${experience.id}`} aria-expanded="false" aria-controls="flush-collapseOne">
+                                                <p>{experience.title}</p>
+                                            </button>
 
-                                    </h2>
-                                    <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                        <div className="accordion-body"> <p>{experience.description}</p></div>
+                                        </h2>
+                                        <div id={`flush-${experience.id}`} className="accordion-collapse collapse" data-bs-parent={`#${experience.id}`}>
+                                            <div className="accordion-body"> <p>{experience.description}</p></div>
+                                        </div>
                                     </div>
                                 </div>)}
                             </div>
-                        </div>
+                        
                     )}
                 </section>
 

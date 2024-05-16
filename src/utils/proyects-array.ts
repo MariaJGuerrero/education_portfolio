@@ -6,14 +6,17 @@
         date: '2003-2007',
         experiences: [
             {
+                id: 'magisterio',
                 title: 'Magisterio',
                 description: 'Infantil UGR'
             },
             {
+                id: 'lse',
                 title: 'LSE',
                 description: 'Básico, Granada.'
             },
             {
+                id:'belros',
                 title: ' Dependienta Belros',
                 description: 'Atención al cliente, control  de albarán, cobro en caja... Granada'
             },
@@ -27,15 +30,18 @@
         id: 'proyect 2',
         date: '2007-2009',
         experiences: [
-            {
+            { 
+                id: 'anpe',
                 title: 'Curso Anpe',
                 description: ''
             },
             {
+                id: 'coviran',
                 title: 'Covirán',
                 description: ''
             },
             {
+                id: 'onza',
                 title: 'ONZA',
                 description: ''
             },
@@ -50,6 +56,7 @@
         experiences: 
         [
             {
+                id: 'cenes',
                 title: 'Escuela verano Cenes.',
                 description: ''
             },
@@ -67,6 +74,7 @@
         experiences: 
         [
             {
+                id: 'infoarte',
                 title: 'Infoarte',
                 description: ''
             },
@@ -82,10 +90,12 @@
         experiences: 
         [
             {
+                id: 'dedi',
                 title: 'Dedi',
                 description: ''
             },
             {
+                id: 'conflictos',
                 title: 'Curso Resolución conflictos',
                 description: ''
             },
@@ -101,10 +111,12 @@
         experiences: 
         [
             {
+                id: 'pitagoras',
                 title: 'Pitágoras Pulianas',
                 description: ''
             },
             {
+                id: 'alternativas',
                 title: 'Pedagogías alternativas y Disciplina positiva',
                 description: ''
             },
@@ -120,14 +132,17 @@
         experiences: 
         [
             {
+                id: 'lizama',
                 title: 'Lizama',
                 description: ''
             },
             {
+                id: 'openbootcamp',
                 title: 'Openbootcamp',
                 description: ''
             },
             {
+                id: 'ingles',
                 title: ' inglés',
                 description: ''
             },
