@@ -71,6 +71,14 @@
     font-size: 3em;
 }
 
+.accordion-item{
+    width: 442px;
+}
+
+.accordion-collapse{
+    color: white;
+    background-color: grey;
+}
 
 
 
