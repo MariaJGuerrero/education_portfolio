@@ -8,7 +8,7 @@ const Contact = ({ isActiveSection} : {isActiveSection: boolean}) => {
             <h2 className='title'>Contact me</h2>
                 <div className='contact-text'>
                     <p>
-                        ¿Qué tal? ¡Es genial saber de todos/as vosotros/as!
+                        ¡Es genial saber de todos/as vosotros/as!
                     </p>
                     <p>
                         Elige el medio que prefieras para hablarme. 
