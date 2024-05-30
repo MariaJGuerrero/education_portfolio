@@ -40,7 +40,7 @@
     scroll-behavior: smooth;
 }
 
-.card{
+.card.proyect-card{
     display: flex;
     justify-content: center;
     align-items: center;
