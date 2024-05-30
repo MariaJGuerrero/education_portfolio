@@ -39,7 +39,7 @@ const Proyects = ({ isActiveSection }: { isActiveSection: boolean }) => {
                 
                 <section className='cards-section'>
                     {proyects.map((proyect) =>
-                        <div id={proyect.id} className='card border-light bg-light mb-3 proyect-card' style={{ minWidth: '35rem' }}>
+                        <div id={proyect.id} className='card border-light bg-light mb-3 proyect-card'>
                             <h5 className="card-title">{proyect.date}</h5>
                             
                                 {proyect.experiences.map((experience)=>

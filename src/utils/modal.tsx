@@ -9,7 +9,7 @@ const Modal = ({dialogRef}: {dialogRef: HTMLDialogElement | null})=> {
     return(
         <>
             <div className="main" >
-                <button onClick={()=> {dialogRef?.close();}} type="button" className="btn btn-primary closeButton">Close</button>
+                <button onClick={()=> {dialogRef?.close();}} type="button" className="btn closeButton">Close</button>
                 {
                     skills.map((skill)=> 
                     <>

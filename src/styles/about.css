@@ -25,7 +25,7 @@
 }
 
 
-.imgAndText-container1{
+.imgAndText-container{
     display: flex;
     flex-wrap: wrap;
     flex: 1;
@@ -36,7 +36,7 @@
 }
 
 
-.text1{
+.text{
     min-width: 200px;
     margin: 30px;
     font-size: 1.8rem;
@@ -50,23 +50,8 @@
 }
 
 
-.imgAndText-container2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 80vw;
-}
-
-
-.text2{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    margin: 30px;
-    font-size: 1.8rem;
-    justify-content: center;
-    align-items: center;
+.btn.modal-button:hover{
+    background-color: aliceblue;
 }
 
 .video{
