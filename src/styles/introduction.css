@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(images/color_chalks.jpg);
+    background-image: url(./images/color_chalks.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;

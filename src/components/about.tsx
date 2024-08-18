@@ -15,7 +15,7 @@ const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
                     <p className="text">
                         ¡Hola! ¿Cómo estás? Soy Marijose, Educadora, Desarrolladora Frontend (amateur) y persona curiosa.
                         Una de las cosas que más curiosidad me ha generado desde siempre es la infancia ¿Cómo ven los niños el mundo?,
-                        ¿Cuáles con sus necesidades?, ¿Cúal es la mejor forma de fomentar todo su potencial?... Por eso decidí estudiar edcucación.
+                        ¿Cuáles con sus necesidades?, ¿Cúal es la mejor forma de fomentar todo su potencial?... Por eso decidí estudiar educación.
                     </p>
                     <div className="img1">
                         <img className='cv-photo' src="/images/foto_cv.jpg" alt="woman photo" />
@@ -25,7 +25,7 @@ const About = ({ isActiveSection} : {isActiveSection: boolean}) => {
                     <p className="text">
                         Me considero responsable y organizada pero sin perder el sentido del humor, capaz de adaptarme rápidamente y de aprovechar cada oportunidad que se me presenta.
                         
-                        por eso, y como persona curiosa que soy, también despertaron mi interés otras cosas como las nuevas tecnologías, los idiomas o el desarrollo web entre otros. 
+                        Por eso, y como persona curiosa que soy, también despertaron mi interés otras cosas como las nuevas tecnologías, los idiomas o el desarrollo web entre otros. 
                         Explorar todas estas áreas me dió las herramientas para ser una persona independiente y resolutiva 
                         <span>
                             <button onClick={()=> {dialogRef.current?.showModal()}} type="button" className="btn modal-button">
