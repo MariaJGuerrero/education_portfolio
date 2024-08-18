@@ -8,7 +8,7 @@
         [
             {
                 id: 'lizama',
-                title: 'Limpiadora ',
+                title: 'Personal de limpieza ',
                 description: 'Mantenimiento y limpieza de portales. Lizama. Madrid'
             },
             {
